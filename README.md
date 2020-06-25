@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Demo
+You can find a demo of the app in www.termtime-react-search-movies.surge.sh
 ## NOTE
 This requires you to put your own TheMovieDB API Key in the `./src/provider/MovieProvider.js` file for it to work
 ## Available Scripts
