@@ -1,0 +1,57 @@
+.MoviesList{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:16px;
+    color:white;
+  }
+  
+  .MoviesList-item{
+    color:white;
+    margin-bottom:24px;
+    width: 21%;
+    transition-duration:0.2s;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+  }
+  
+  .MoviesList-item:hover{
+    transform: scale(1.03);
+  }
+  
+  .hoverReactive{
+    transition-duration:0.18s;
+  }
+  .hoverReactive:hover{
+    transform: scale(1.05);
+  }
+
+  .pageNavBar{
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-self:center;
+    color:white;
+  }
+
+  @media only screen and (max-width:900px){
+    .MoviesList-item{
+        color:white;
+        margin-bottom:20px;
+        width: 47%;
+        transition-duration:0.2s;
+        -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+      }
+
+      .pageNavBar{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        margin-bottom:10px;
+      }
+  }

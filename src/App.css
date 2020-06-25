@@ -1,0 +1,27 @@
+@import './css/DetailPage.css';
+@import './css/HomePage.css';
+
+.App {
+  padding-top:36px;
+  text-align: center;
+}
+
+.SearchForm-wrapper{
+  display:flex;
+  justify-content: center;
+  color:white;
+}
+
+.iconButton-container{
+  display:flex;
+  flex-direction:column;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .App{
+    padding-top:0;
+  }
+}
+
+
