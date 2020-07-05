@@ -4,7 +4,8 @@ import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
 export class PageBar extends Component {
     constructor(props){
         super(props);
-        let pageArray = this._splitInPages(props.maxPage);
+        let pageArray = [[1]];
+        if(props.maxPage !== 0) pageArray = this._splitInPages(props.maxPage);
     //    console.log(pageArray);
         this.state = { currentPage: 1, maxPage: props.maxPage, pageArray: pageArray, currentPageIndex: 0, isEnabled: true };
     }

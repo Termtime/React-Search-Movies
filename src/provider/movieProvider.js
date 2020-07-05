@@ -1,4 +1,4 @@
-const API_KEY='YOUR_KEY';
+import { API_KEY } from './key';
 const BASE_URL = 'https://api.themoviedb.org/3';
 
 export async function getMovies(page = null, query)

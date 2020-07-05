@@ -6,7 +6,7 @@ export const NotFound = () => (
         <div style={{alignSelf:'left'}}>
             <h1 style={ {color:'black', fontSize: 60} }>404!</h1>
             <h2>Page not found!</h2>
-            <ButtonBackToHome align='left'><span></span>Return to Home</ButtonBackToHome>
+            <ButtonBackToHome align='left'>To Home</ButtonBackToHome>
         </div>
     </div>
 )

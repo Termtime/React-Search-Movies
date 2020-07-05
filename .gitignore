@@ -10,7 +10,8 @@
 
 # production
 /build
-
+#key
+/src/provider/key.js
 # misc
 .DS_Store
 .env.local
